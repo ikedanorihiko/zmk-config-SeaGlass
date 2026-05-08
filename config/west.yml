@@ -8,6 +8,10 @@ manifest:
       url-base: https://github.com/caksoylar
     - name: 4mplelab
       url-base: https://github.com/4mplelab
+
+    - name: prospector
+      url-base: https://github.com/t-ogura
+      
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -22,5 +26,14 @@ manifest:
     - name: zmk-feature-charge-indicator
       remote: 4mplelab
       revision: main
+
+# Add this:
+    - name: prospector-zmk-module
+      remote: prospector
+      revision: v2.2.1
+
+      
   self:
     path: config
+
+    path: modules/prospector-zmk-module
