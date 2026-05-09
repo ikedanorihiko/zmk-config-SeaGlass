@@ -86,7 +86,10 @@
         snipe-layers = <1>;
         scroll-layers = <8>;
 
+        x-input-code = <INPUT_REL_X>;
+        y-input-code = <INPUT_REL_Y>;
         evt-type = <INPUT_EV_REL>;
+
         inertial-scroll;
         inertial-scroll-layers = <6 7>;
         inertial-scroll-gain-pct = <130>;
