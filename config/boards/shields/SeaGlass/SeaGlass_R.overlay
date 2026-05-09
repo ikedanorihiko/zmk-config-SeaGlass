@@ -86,5 +86,13 @@
         irq-gpios = <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         snipe-layers = <1>;
         scroll-layers = <8>;
+
+        inertial-scroll;
+        inertial-scroll-layers = <6 7>;
+        inertial-scroll-gain-pct = <130>;
+        inertial-scroll-decay-pct = <99>;
+        inertial-scroll-interval-ms = <10>;
+        inertial-scroll-threshold = <4>;
+
     };
 };
